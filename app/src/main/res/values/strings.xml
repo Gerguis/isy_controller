@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ISY Helper</string>
+
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_isy_settings">ISY Settings</string>
+
+    <string name="pref_title_isy_ip">IP Address</string>
+    <string name="pref_title_isy_user">Username</string>
+    <string name="pref_title_isy_password">Password</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+</resources>

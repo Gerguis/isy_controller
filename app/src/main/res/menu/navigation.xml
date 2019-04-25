@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_rooms"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Rooms" />
+
+    <item
+        android:id="@+id/main_nodes"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Nodes" />
+
+    <item
+        android:id="@+id/main_programs"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Programs" />
+    <item
+        android:id="@+id/main_variables"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Variables" />
+    <item
+        android:id="@+id/main_settings"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Settings" />
+
+</menu>

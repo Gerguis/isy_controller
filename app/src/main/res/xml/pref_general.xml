@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="isy_ip"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_isy_ip" />
+    <EditTextPreference
+        android:defaultValue="admin"
+        android:key="isy_user"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_isy_user" />
+    <EditTextPreference
+        android:defaultValue="admin"
+        android:key="isy_password"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_isy_password" />
+</PreferenceScreen>
