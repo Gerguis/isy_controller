@@ -2,6 +2,7 @@ package ck.isyhelper;
 
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -75,6 +76,10 @@ public class DashboardActivity extends AppCompatActivity {
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+
+        ISYClient client = ISYClient.getInstance();
+        client.initialize(getApplicationContext());
 
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 

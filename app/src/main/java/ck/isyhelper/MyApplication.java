@@ -3,6 +3,7 @@ package ck.isyhelper;
 
 import android.app.AlertDialog;
 import android.app.Application;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
@@ -13,6 +14,7 @@ import android.widget.Toast;
 public class MyApplication extends Application {
 
     private boolean isFirstRun = false;
+
 
     @Override
     public void onCreate() {
